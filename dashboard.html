@@ -17,7 +17,7 @@
 
 
   	
-	<title>cvekla</title>
+	<title>emission</title>
 </head>
 <body>
 
@@ -27,93 +27,14 @@
 			<div class="leftside">
 					
 
-<!--kalendar-->
-					<div class="calendar-holder">
-
-						 	<div class="calendar">
 
 
-							<div class="col rightCol">
-								<div class="content">
-										<div class="calendar-header">
-										 	<img src="img/kalendar-left.png" alt="Left">
-										 	<p>June 2017</p>
-										 	<div class="jaguar"><img src="img/kalendar-right.png" alt="Right"></div>
-										 </div>
-									
-									<div class="clearfix"></div>
-									<ul class="weekday">
-										<li><a href="#" title="Mon" data-value="1">mon</a></li>
-										<li><a href="#" title="Tue" data-value="2">tue</a></li>
-										<li><a href="#" title="Wed" data-value="3">wed</a></li>
-										<li><a href="#" title="Thu" data-value="4">thu</a></li>
-										<li><a href="#" title="Fri" data-value="5">fri</a></li>
-										<li><a href="#" title="Say" data-value="6">sat</a></li>
-										<li><a href="#" title="Sun" data-value="7">sun</a></li>
-									</ul>
-									<div class="clearfix"></div>
-									<ul class="days">
-										<script>
-											for( var _i = 1; _i <= 31; _i += 1 ){
-												var _addClass = '';
-												if( _i === 12 ){ _addClass = ' class="selected"'; }
-												
-												switch( _i ){
-													case 8:
-													case 10:
-													case 27:
-														_addClass = ' class="event"';
-													break;
-												}
-
-												document.write( '<li><a href="#" title="'+_i+'" data-value="'+_i+'"'+_addClass+'>'+_i+'</a></li>' );
-											}
-										</script>
-									</ul>
-									<div class="clearfix"></div>
-								</div>
-							</div>
-
-							<div class="clearfix"></div>
-
-							</div>
-
-
-        			</div>
-<!-- kraj  kalendara -->
+	
 
 
 
-			<div class="ord">
-				<div class="ordered ordered1">
-					<p>Ćevapi sa pomfritom 5 komada</p>
-					<p class="cena">120</p>
-					<h5>Ćevapi, pomfrit</h5>
-				</div>
- <div style="clear: both"></div>
-				<div class="linea">
-
-				</div>
-
-				<div class="ordered">
-					<p>Palačinke sa kremom&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
-					<p class="cena"> 70</p>
-					<h5>Palačinke, krem</h5>
-				</div>
-			</div>	
 
 
- <div style="clear: both"></div>
-
-
-				<div class="betontotal">
-								<div class="betontotal-left hvr-sweep-to-bottom">
-								<img src="img/igz.svg" style="width:24px;">
-								</div>
-								<div class="betontotal-right">
-								<p>Total&nbsp&nbsp 190</p>
-								</div>
-				</div>
 
 
 
@@ -208,9 +129,79 @@
 	            
 	        </div>
 
+	        				<!--  WIDGETS  -->
 
 
 
+
+
+			<div class="standard">
+
+				<div class="standardno">
+
+						<div class="widget">
+							<div class="standard-w standard0" >
+								<h5>Absence</h5>
+
+								<div class="cena">
+									<p>Old Absence</p> 
+									<p class="zadnje">7 days</p>
+								</div>
+
+								<div class="cena">
+									<p>New Absence</p>
+									<p class="zadnje">25 days</p>
+								</div>
+
+
+								 <div style="clear: both"></div>
+							</div>
+
+						</div>
+
+
+						<div class="widget">
+							<div class="standard-w standard1" >
+								<h5>Cvekla</h5>
+
+								<div class="cena">
+									<p>Today</p> 
+									<p class="zadnje">Grašak sa šniclom</p>
+								</div>
+
+								<div class="cena">
+									<p>Tomorrow</p>
+									<p class="zadnje">Punjena pljeskavica</p>
+								</div>
+								 <div style="clear: both"></div>
+
+							</div>
+
+						</div>
+
+
+						<div class="widget">
+							<div class="standard-w standard2" >
+								<h5>Jira</h5>
+
+								<div class="cena">
+									<p>In Progress</p> 
+									<p class="zadnje">5</p>
+								</div>
+
+								<div class="cena">
+									<p>To Do</p>
+									<p class="zadnje">23</p>
+								</div>
+								 <div style="clear: both"></div>
+
+							</div>
+
+						</div>
+
+				</div>
+
+<!--  kraj WIDGETSa  -->
 
 
 	
