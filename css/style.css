@@ -412,7 +412,7 @@ Primary style
 
 
 
-.leftside {width: 300px; float: left; background-color: #ffffff; height: 100vh; position: fixed;}
+.leftside {width: 270px; float: left; background-color: #ffffff; height: 100vh; position: fixed;}
  
 
 
@@ -599,7 +599,7 @@ a{
 
 /********************************************************************    DESNI PANEL     *********************************************************************************/
 
-.rightside {background: #f8f8f8;  height: 100vh; margin-left: 300px;}
+.rightside {background: #f8f8f8;  height: 100vh; margin-left: 270px;}
 
 .pref {  width: 100%; height: 38px; padding-top: 8px;}
 
@@ -934,7 +934,7 @@ input:checked + .slider:before {
 .standardno {margin-top: 10px;}
 .widget {width: 100%; margin-top: -2%;}
 
-.standard-w {overflow: hidden;  width: 300px; float: left; padding: 16px 20px;  margin-left: 2%; margin-top: 2%; height: 130px; position: relative; border-radius: 5px; 
+.standard-w {overflow: hidden;  width: 300px; float: left; padding: 16px 20px;  margin-left: 2.6%; margin-top: 2%; height: 130px; position: relative; border-radius: 5px; 
     background: -webkit-linear-gradient(left, #9386d2 , #7459b2); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(left, #9386d2 , #7459b2); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(left, #9386d2 , #7459b2); /* For Firefox 3.6 to 15 */
