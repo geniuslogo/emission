@@ -934,7 +934,7 @@ input:checked + .slider:before {
 .standardno {margin-top: 10px;}
 .widget {width: 100%; margin-top: -2%;}
 
-.standard-w {overflow: hidden;  width: 300px; float: left; padding: 16px 20px;  margin-left: 2.6%; margin-top: 2%; height: 130px; position: relative; border-radius: 5px; 
+.standard-w {overflow: hidden;  width: 300px; float: left; padding: 16px 20px;  margin-left: 2.6%; margin-top: 1.5%; height: 130px; position: relative; border-radius: 5px; 
     background: -webkit-linear-gradient(left, #9386d2 , #7459b2); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(left, #9386d2 , #7459b2); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(left, #9386d2 , #7459b2); /* For Firefox 3.6 to 15 */
@@ -1013,7 +1013,7 @@ cursor: pointer;
 .standard-w h5 {color: #fff; font-family: 'Book'; font-size: 22px; float: left; text-align: left; padding-bottom: 30px; }
 
 
-.standard3 { width: 130px; float: left; padding: 16px 20px; border: 1px dashed #bdbfc5; margin-left: 2.6%; margin-top: 2%; height: 130px; position: relative; border-radius: 5px; 
+.standard3 { width: 130px; float: left; padding: 16px 20px; border: 1px dashed #bdbfc5; margin-left: 2.6%; margin-top: 1.5%; height: 130px; position: relative; border-radius: 5px; 
 
     -webkit-transition: all 0.15s ease-in;
     -moz-transition: all 0.15s ease-in;
