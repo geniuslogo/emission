@@ -960,6 +960,7 @@ cursor: pointer;
     margin-top: -99px;
     margin-left: 91px;}
 
+
 .standard1:after {	background: url('../img/00021.svg') no-repeat center;     content: '';
 width: 188px;
     height: 158px;
@@ -990,6 +991,18 @@ width: 188px;
 box-shadow: 0px 14px 63px -11px rgba(255,155,61,1);
 cursor: pointer;  
  -webkit-transition: all 0.15s ease-in-out; -moz-transition: all 0.15s ease-in-out; transition: all 0.15s ease-in-out;}
+
+
+.std:hover:before {background: url('../img/cancel.png') no-repeat center;     content: '';
+    width: 20px;
+    height: 20px;
+    display: block;
+    float: right;
+    margin-top: -4px;
+    margin-right: -8px;
+    -webkit-transition-delay: 1s !important; /* Safari */
+    transition-delay: 1s !important;}  
+
 
 .standard2 {
 	background: -webkit-linear-gradient(left, #57a7ff , #2994ff); /* For Safari 5.1 to 6.0 */
