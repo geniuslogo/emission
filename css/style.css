@@ -601,7 +601,7 @@ a{
 
 .rightside {background: #f8f8f8;  height: 100vh; margin-left: 270px;}
 
-.pref {  width: 100%; height: 38px; padding-top: 8px;}
+.pref {  width: 100%; height: 42px; padding-top: 8px;}
 
 
 .pref p {font-family: 'Gotham'; color: #2e2f33; font-size: 14px; line-height: 14px; padding-left: 16px; padding-right: 3px;}
@@ -1013,7 +1013,7 @@ cursor: pointer;
 .standard-w h5 {color: #fff; font-family: 'Book'; font-size: 22px; float: left; text-align: left; padding-bottom: 30px; }
 
 
-.standard3 { width: 130px; float: left; padding: 16px 20px; border: 1px dashed #bdbfc5; margin-left: 2%; margin-top: 2%; height: 130px; position: relative; border-radius: 5px; 
+.standard3 { width: 130px; float: left; padding: 16px 20px; border: 1px dashed #bdbfc5; margin-left: 2.6%; margin-top: 2%; height: 130px; position: relative; border-radius: 5px; 
 
     -webkit-transition: all 0.15s ease-in;
     -moz-transition: all 0.15s ease-in;
