@@ -939,7 +939,6 @@ input:checked + .slider:before {
     background: -o-linear-gradient(left, #9386d2 , #7459b2); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(left, #9386d2 , #7459b2); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to right, #9386d2 , #7459b2); /* Standard syntax (must be last) */
-
     -webkit-transition: all 0.15s ease-in;
     -moz-transition: all 0.15s ease-in;
     -o-transition: all 0.15s ease-in;
@@ -980,7 +979,7 @@ width: 188px;
 
 
 
-.standard1 {
+.standard1 { 
 	background: -webkit-linear-gradient(left, #ff9b3d , #ff8710); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(left, #ff9b3d , #ff8710); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(left, #ff9b3d , #ff8710); /* For Firefox 3.6 to 15 */
@@ -992,7 +991,8 @@ box-shadow: 0px 14px 63px -11px rgba(255,155,61,1);
 cursor: pointer;  
  -webkit-transition: all 0.15s ease-in-out; -moz-transition: all 0.15s ease-in-out; transition: all 0.15s ease-in-out;}
 
-
+.std {   
+   }
 .std:hover:before {background: url('../img/cancel.png') no-repeat center;     content: '';
     width: 20px;
     height: 20px;
@@ -1000,8 +1000,16 @@ cursor: pointer;
     float: right;
     margin-top: -4px;
     margin-right: -8px;
-    -webkit-transition-delay: 1s !important; /* Safari */
-    transition-delay: 1s !important;}  
+
+}  
+.std:hover:before {background: url('../img/cancel.png') no-repeat center;     content: '';
+    width: 20px;
+    height: 20px;
+    display: block;
+    float: right;
+    margin-top: -4px;
+    margin-right: -8px;
+}  
 
 
 .standard2 {
@@ -1015,19 +1023,17 @@ cursor: pointer;
 	-moz-box-shadow: 0px 14px 63px -11px rgba(87,167,255,1);
 	box-shadow: 0px 14px 63px -11px rgba(87,167,255,1);
 	cursor: pointer;  
-    -webkit-transition: all 0.15s ease-in-out; -moz-transition: all 0.15s ease-in-out; transition: all 0.15s ease-in-out;}
+  -webkit-transition: all 0.15s ease-in-out; -moz-transition: all 0.15s ease-in-out; transition: all 0.15s ease-in-out;}
+
 
 .cena {width: 288px; float: left; margin-bottom: 4px;  }
 .cena p { font-size: 12px; color: #fff;   font-family: 'Gotham'; margin-bottom: 7px; float: left; -webkit-font-smoothing: antialiased;}
 .cena .zadnje {float: right;  font-size: 1em; color: #fff;   font-family: 'Gotham'; margin-right: 24px; -webkit-font-smoothing: antialiased;}
 
 
-
 .standard-w h5 {color: #fff; font-family: 'Book'; font-size: 20px; float: left; text-align: left; padding-bottom: 36px; }
 
-
 .standard3 { width: 130px; float: left; padding: 16px 20px; border: 1px dashed #adafb6; margin-left: 2.6%; margin-top: 1.5%; height: 130px; position: relative; border-radius: 5px; 
-
     -webkit-transition: all 0.15s ease-in;
     -moz-transition: all 0.15s ease-in;
     -o-transition: all 0.15s ease-in;
