@@ -1050,10 +1050,10 @@ input:checked + .slider:before {
 .standard { display: block;}
 
 .standard h2 {color: #93959c; font-family: 'Gotham'; font-size: 14px; text-align: left; margin-top: 13px; padding-left: 94px; -webkit-font-smoothing: antialiased;}
-.standardno {margin-top: 10px;}
-.widget {width: 100%; margin-top: -2%;}
+.standardno {}
+.widget {width: 100%; }
 
-.standard-w {overflow: hidden;  width: 300px; float: left; padding: 13px 20px;  margin-left: 2.6%; margin-top: 2.6%; height: 110px; position: relative; border-radius: 5px; 
+.standard-w {overflow: hidden;  width: 300px; float: left; padding: 13px 20px;  margin-left: 2.6%; margin-top: 2%; height: 110px; position: relative; border-radius: 5px; 
     background: -webkit-linear-gradient(left, #9386d2 , #7459b2); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(left, #9386d2 , #7459b2); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(left, #9386d2 , #7459b2); /* For Firefox 3.6 to 15 */
@@ -1153,7 +1153,7 @@ cursor: pointer;
 
 .standard-w h5 {color: #fff; font-family: 'Light'; font-size: 20px; float: left; text-align: left; padding-bottom: 23px; }
 
-.standard3 {width: 110px; float: left; padding: 16px 20px; border: 1px dashed #adafb6; margin-left: 2.6%; margin-top: 2.6%; height: 110px; position: relative; border-radius: 5px; 
+.standard3 {width: 110px; float: left; padding: 16px 20px; border: 1px dashed #adafb6; margin-left: 2.6%; margin-top: 2%; height: 110px; position: relative; border-radius: 5px; 
     -webkit-transition: all 0.15s ease-in;
     -moz-transition: all 0.15s ease-in;
     -o-transition: all 0.15s ease-in;
