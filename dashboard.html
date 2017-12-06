@@ -29,6 +29,25 @@
 
 
 
+
+
+
+<div class="left-navs">
+		
+		<ul class="nav nav-1"> 
+		<li class='logo3'>
+
+        </li>
+			<li><a href="#" class="current">Dashboard</a></li>
+			<li><a href="#">Meetings</a></li>
+			<li><a href="#">Events</a></li>
+			<li><a href="#">Chat</a></li>
+			<li><a href="#">Notes</a></li>
+			<li><a href="#">Documents</a></li>
+			<li><a href="#">Contacts</a></li>
+	</ul>
+
+	</div>
 	
 
 
@@ -60,6 +79,10 @@
 				<!--  PREFERENCES DIALOG  -->
 
 	        <div class="pref">
+	        	<form>
+				  <input type="text" name="search" placeholder="Search..">
+				</form>
+								 <div style="clear: both"></div>
 		        <ul>
 			        <li>
 
@@ -126,8 +149,10 @@
 
 
 		        </ul>
+		        								 <div style="clear: both"></div>
 	            
 	        </div>
+
 
 	        				<!--  WIDGETS  -->
 
@@ -249,6 +274,40 @@ document.getElementById("defaultOpen").click();
 </script>
 
 
+
+<script type="text/javascript">
+	$('.canvas-toggle').hide();
+
+ function sideNav() {
+
+   if ($(window).width() <= 1133) {
+
+     $('.sidebar').hide();
+
+   
+
+   } else {
+
+     $('.sidebar').show();
+
+  
+
+   }
+
+ }
+
+ $('.canvas-toggle').click(function() {
+   
+ 
+ });
+
+
+ $(window).resize(function() {
+
+   sideNav();
+
+ });
+</script>
 					 
 
 </body>
