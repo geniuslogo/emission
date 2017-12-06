@@ -84,7 +84,7 @@
 
 body{
   text-align:center;
-  background: #dddde8;
+  background: #e6e6ea;
 } 
 
 
@@ -404,7 +404,67 @@ Primary style
 
 
 
-/*********************************************   kraj logina   *************************************************************/
+/*********************   kraj logina   ***********************/
+
+
+
+
+
+/*********************************************   M  E  N  I  *************************************************************/
+
+
+.logo3 {height: 66px; overflow: hidden;
+        background: rgba(61,61,148,1);
+        background: -moz-linear-gradient(left, rgba(61,61,148,1) 0%, rgba(104,79,174,1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(61,61,148,1)), color-stop(100%, rgba(104,79,174,1)));
+        background: -webkit-linear-gradient(left, rgba(61,61,148,1) 0%, rgba(104,79,174,1) 100%);
+        background: -o-linear-gradient(left, rgba(61,61,148,1) 0%, rgba(104,79,174,1) 100%);
+        background: -ms-linear-gradient(left, rgba(61,61,148,1) 0%, rgba(104,79,174,1) 100%);
+        background: linear-gradient(to right, rgba(61,61,148,1) 0%, rgba(104,79,174,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d3d94', endColorstr='#684fae', GradientType=1 );}
+
+.logo3:after{background: url(../img/logo55.svg) no-repeat center;
+    content: '';
+    width: 74px;
+    height: 128px;
+    display: block;
+    margin: auto;
+    margin-top: -26px;
+    margin-left: -9px;
+    opacity: 0.5;}
+
+.left-navs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.nav {
+  width: 240px;
+  background-color: #fff;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.nav li a { color: white; box-sizing: border-box; font-family: 'Book'; color: #a7a7c3; text-align: left; line-height: 50px; font-size: 0.95em;}
+.nav li a:hover { color: #3d3d94; }
+
+/* NAV 1 */
+
+.nav-1 li a { 
+  display: block; 
+  padding: 10px 20px;
+  border-left: 6px solid transparent;
+  transition: all 400ms ease;
+}
+
+.nav-1 li a:hover,
+.nav-1 li a.current {
+  color: #3d3d94;
+  font-family: 'Book';
+  background-color: #f8f8f8;
+  border-left: 6px solid #3d3d94;
+}
 
 
 
@@ -413,7 +473,15 @@ Primary style
 
 
 
-.leftside {width: 270px; float: left; background-color: #ffffff; height: 100vh; position: fixed;
+
+
+
+/*********************   kraj menija   ***********************/
+
+
+
+
+.leftside {width: 240px; float: left; background-color: #ffffff; height: 100vh; position: fixed;
 
 
     background: linear-gradient#3d3d94, #684fae /* Standard syntax */}
@@ -603,13 +671,54 @@ a{
 
 /********************************************************************    DESNI PANEL     *********************************************************************************/
 
-.rightside {background: #f8f8f8;  height: 100vh; margin-left: 270px;}
+.rightside {background: #f8f8f8;  height: 100vh; margin-left: 240px;}
 
-.pref {  width: 100%; height: 42px; padding-top: 8px;}
+.pref input[type=text] {
+    margin-left: 2.6%;
+    float: left;
+    width: 500px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: rgba(255,255,255,0.4);
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    color: black;
+    margin-top: 10px;
+}
+
+.pref input[type=text]:focus {
+  outline: none;
+  width: 50%;
+  background-color: white;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #a7a7c3; font-family: 'Book'; font-size: 0.95em;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #a7a7c3; font-family: 'Book'; font-size: 0.95em;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #a7a7c3; font-family: 'Book'; font-size: 0.95em;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #a7a7c3; font-family: 'Book'; font-size: 0.95em;
+}
+
+
+
+
+.pref {  width: 100%; height: 66px;   background-color: #e6e6ea;}
 
 
 .pref p {font-family: 'Gotham'; color: #2e2f33; font-size: 14px; line-height: 14px; padding-left: 16px; padding-right: 3px;}
-.pref ul {float: right; padding-right: 12px;}
+.pref ul {float: right; padding-right: 12px; margin-top: -28px;}
 
 .pref ul li {  display: inline-block; vertical-align: middle;}
 .preferences:hover  {opacity: 0.5;   -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;}
@@ -938,7 +1047,7 @@ input:checked + .slider:before {
 .standardno {margin-top: 10px;}
 .widget {width: 100%; margin-top: -2%;}
 
-.standard-w {overflow: hidden;  width: 300px; float: left; padding: 13px 20px;  margin-left: 2.6%; margin-top: 1.5%; height: 110px; position: relative; border-radius: 5px; 
+.standard-w {overflow: hidden;  width: 300px; float: left; padding: 13px 20px;  margin-left: 2.6%; margin-top: 2.6%; height: 110px; position: relative; border-radius: 5px; 
     background: -webkit-linear-gradient(left, #9386d2 , #7459b2); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(left, #9386d2 , #7459b2); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(left, #9386d2 , #7459b2); /* For Firefox 3.6 to 15 */
@@ -949,7 +1058,8 @@ input:checked + .slider:before {
     -ms-transition: all 0.15s ease-in;
     transition: all 0.15s ease-in;}
 
-.standard0:hover { -webkit-box-shadow: 0px 14px 63px -11px rgba(147,134,210,1);
+.standard0:hover { 
+-webkit-box-shadow: 0px 14px 63px -11px rgba(147,134,210,1);
 -moz-box-shadow: 0px 14px 63px -11px rgba(147,134,210,1);
 box-shadow: 0px 14px 63px -11px rgba(147,134,210,1);
 cursor: pointer;  
@@ -1037,14 +1147,14 @@ cursor: pointer;
 
 .standard-w h5 {color: #fff; font-family: 'Light'; font-size: 20px; float: left; text-align: left; padding-bottom: 23px; }
 
-.standard3 { width: 110px; float: left; padding: 16px 20px; border: 1px dashed #adafb6; margin-left: 2.6%; margin-top: 1.5%; height: 110px; position: relative; border-radius: 5px; 
+.standard3 {width: 110px; float: left; padding: 16px 20px; border: 1px dashed #adafb6; margin-left: 2.6%; margin-top: 2.6%; height: 110px; position: relative; border-radius: 5px; 
     -webkit-transition: all 0.15s ease-in;
     -moz-transition: all 0.15s ease-in;
     -o-transition: all 0.15s ease-in;
     -ms-transition: all 0.15s ease-in;
     transition: all 0.15s ease-in;}
 
-.standard3:hover {border: 1px solid #adafb6;
+.standard3:hover {border: 1px solid #adafb6; 
   -webkit-box-shadow: 0px 14px 63px -11px rgba(219,220,225,1);
   -moz-box-shadow: 0px 14px 63px -11px rgba(219,220,225,1);
   box-shadow: 0px 14px 63px -11px rgba(219,220,225,1);
@@ -1052,11 +1162,10 @@ cursor: pointer;
     -webkit-transition: all 0.15s ease-in-out; -moz-transition: all 0.15s ease-in-out; transition: all 0.15s ease-in-out;}
 
 .krst {background: url(../img/krst.png) no-repeat center; opacity: 0.7}
-.krst:hover {background: url(../img/krst.png) no-repeat center; opacity: 1}
+.krst:hover {background: url(../img/krst.png) no-repeat center; opacity: 1;}
 
 /****************  kraj STANDARD MEALS    **************/
   
-
 
 
 
