@@ -446,7 +446,7 @@ Primary style
   padding-left: 0;
 }
 
-.nav li a { color: white; box-sizing: border-box; font-family: 'Book'; color: #a7a7c3; text-align: left; line-height: 50px; font-size: 0.95em;}
+.nav li a { color: white; box-sizing: border-box; font-family: 'Book'; color: #8585a5; text-align: left; line-height: 50px; font-size: 0.95em;}
 .nav li a:hover { color: #3d3d94; }
 
 /* NAV 1 */
@@ -484,7 +484,7 @@ Primary style
     display: inline-block;
     /* margin: auto; */
     margin-top: -7px;
-    opacity: 1;
+    opacity: 0.9;
     vertical-align: middle;
     margin-right: 14px;}
 
@@ -496,7 +496,7 @@ Primary style
     display: inline-block;
     /* margin: auto; */
     margin-top: -7px;
-    opacity: 1;
+    opacity: 0.9;
     vertical-align: middle;
     margin-right: 14px;}
 
@@ -508,7 +508,7 @@ Primary style
     display: inline-block;
     /* margin: auto; */
     margin-top: -7px;
-    opacity: 1;
+    opacity: 0.9;
     vertical-align: middle;
     margin-right: 14px;}
 
@@ -535,7 +535,7 @@ Primary style
     display: inline-block;
     /* margin: auto; */
     margin-top: -7px;
-    opacity: 1;
+    opacity: 0.9;
     vertical-align: middle;
     margin-right: 14px;}
 
@@ -546,7 +546,7 @@ Primary style
     display: inline-block;
     /* margin: auto; */
     margin-top: -7px;
-    opacity: 1;
+    opacity: 0.9;
     vertical-align: middle;
     margin-right: 14px;}
 
@@ -557,7 +557,7 @@ Primary style
     display: inline-block;
     /* margin: auto; */
     margin-top: -7px;
-    opacity: 1;
+    opacity: 0.9;
     vertical-align: middle;
     margin-right: 14px;}
 
@@ -816,7 +816,7 @@ a{
 .pref {  width: 100%; height: 66px;   background-color: #e6e6ea;}
 
 
-.pref p {font-family: 'Gotham'; color: #75758d; font-size: 14px; line-height: 14px; padding-left: 16px; padding-right: 8px;}
+.pref p {font-family: 'Book'; color: #8585a5; font-size: 15px; line-height: 14px; padding-left: 16px; padding-right: 8px;}
 .pref ul {float: right; padding-right: 22px; margin-top: -40px;}
 
 .pref ul li {  display: inline-block; vertical-align: middle;}
