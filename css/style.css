@@ -466,11 +466,85 @@ Primary style
   border-left: 6px solid #3d3d94;
 }
 
+.dash01:before {background: url(../img/dash1.svg) no-repeat;
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    /* margin: auto; */
+    margin-top: -7px;
+    opacity: 1;
+    vertical-align: middle;
+    margin-right: 14px;}
+
+.dash02:before {background: url(../img/meeting.svg) no-repeat;
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    /* margin: auto; */
+    margin-top: -7px;
+    opacity: 1;
+    vertical-align: middle;
+    margin-right: 14px;}
 
 
+.dash03:before {background: url(../img/events.svg) no-repeat;
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    /* margin: auto; */
+    margin-top: -7px;
+    opacity: 1;
+    vertical-align: middle;
+    margin-right: 14px;}
 
 
+.dash04:before {background: url(../img/chat.svg) no-repeat;
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    /* margin: auto; */
+    margin-top: -7px;
+    opacity: 1;
+    vertical-align: middle;
+    margin-right: 14px;}
 
+
+.dash05:before {background: url(../img/notes.svg) no-repeat;
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    /* margin: auto; */
+    margin-top: -7px;
+    opacity: 1;
+    vertical-align: middle;
+    margin-right: 14px;}
+
+.dash06:before {background: url(../img/documents.svg) no-repeat;
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    /* margin: auto; */
+    margin-top: -7px;
+    opacity: 1;
+    vertical-align: middle;
+    margin-right: 14px;}
+
+.dash07:before {background: url(../img/contacts2.svg) no-repeat;
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    /* margin: auto; */
+    margin-top: -7px;
+    opacity: 1;
+    vertical-align: middle;
+    margin-right: 14px;}
 
 
 
