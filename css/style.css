@@ -1340,11 +1340,24 @@ cursor: pointer;
   align-items: center;
   cursor: pointer;
   padding-left: 6px;
+    -webkit-transition: all 0.11s ease-in;
+    -moz-transition: all 0.11s ease-in;
+    -o-transition: all 0.11s ease-in;
+    -ms-transition: all 0.11s ease-in;
+    transition: all 0.11s ease-in;
+}
+
+.discussion:hover {
+
+  background-color: #FFF;
+
+ -webkit-transition: all 0.11s ease-in-out; -moz-transition: all 0.11s ease-in-out; transition: all 0.11s ease-in-out;
 }
 
 .discussion-last {
 
   border-bottom: solid 1px #E0E0E0;
+    height: 90px;
 
 }
 
@@ -1478,7 +1491,7 @@ cursor: pointer;
     border-radius: 10px;
     line-height: 9px;
 	margin-top: -44px;
-	margin-left: -20px;
+	margin-left: -21px;
 	font-family: 'Gotham';
 }
 
