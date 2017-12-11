@@ -1419,8 +1419,20 @@ cursor: pointer;
   height: 13px;
   background-color: #75c475;
   border-radius: 13px;
-  border: 3px solid #FAFAFA;
+  border: 3px solid #F8F8F8;
 }
+
+.online1 {
+  position: relative;
+  top: 30px;
+  left: 35px;
+  width: 13px;
+  height: 13px;
+  background-color: #75c475;
+  border-radius: 13px;
+  border: 3px solid #FFF;
+}
+
 
 .desc-contact {
   width:50%;
@@ -1450,8 +1462,24 @@ cursor: pointer;
   font-family:'Book';
   font-size: 11px;
   color: #BBB;
+  margin-bottom: -20px;
+}
 
+.timer2:after {
 
+    content: "1";
+    background-color: #75c475;
+    color: #fff;
+    font-size: 0.85em;
+    display: inline-block;
+    opacity: 1;
+    vertical-align: middle;
+    padding: 4px 8px;
+    border-radius: 10px;
+    line-height: 10px;
+	margin-top: -44px;
+	margin-left: -20px;
+	font-family: 'Gotham';
 }
 
 .chat {
@@ -1510,10 +1538,18 @@ cursor: pointer;
 .chat .messages-chat .text {
   margin: 0 35px;
   background-color: #f6f6f6;
-  padding: 15px;
+  padding: 17px;
   border-radius: 12px;
   font-family: 'Book';
+  font-size: 0.9em;
 }
+
+
+.chat .messages-chat .text-pr {
+  margin-left: 80px;
+
+}
+
 
 .text-only {
   margin-left: 45px;
