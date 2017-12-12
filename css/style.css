@@ -1714,7 +1714,7 @@ margin-left: 19%;
     -ms-transition: all 0.11s ease-in;
     transition: all 0.11s ease-in;}
 
-.icon-attach {background: url(../img/attach.svg) no-repeat center;
+.icon-attach {background: url(../img/attach2.svg) no-repeat center;
 width: 20px;
 height: 20px;
 opacity: 0.7;
@@ -1732,7 +1732,7 @@ opacity: 1;
 cursor: pointer;
  -webkit-transition: all 0.11s ease-in-out; -moz-transition: all 0.11s ease-in-out; transition: all 0.11s ease-in-out;}
 
-.icon-attach:hover {background: url(../img/attach.svg) no-repeat center;
+.icon-attach:hover {background: url(../img/attach2.svg) no-repeat center;
 width: 20px;
 height: 20px;
 opacity: 1;
