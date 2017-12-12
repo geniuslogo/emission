@@ -857,8 +857,23 @@ a{
 .pref ul {float: right; padding-right: 22px; margin-top: -40px;}
 
 .pref ul li {  display: inline-block; vertical-align: middle;}
-.preferences:hover  {opacity: 0.5;   -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;}
-.logout:hover  {opacity: 0.5;   -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;}
+
+.preferences { opacity: 0.7;
+    -webkit-transition: all 0.11s ease-in;
+    -moz-transition: all 0.11s ease-in;
+    -o-transition: all 0.11s ease-in;
+    -ms-transition: all 0.11s ease-in;
+    transition: all 0.11s ease-in;}
+.preferences:hover  {opacity: 1;   -webkit-transition: all 0.15s ease-in-out; -moz-transition: all 0.15s ease-in-out; transition: all 0.15s ease-in-out;}
+
+.logout { opacity: 0.7;
+    -webkit-transition: all 0.11s ease-in;
+    -moz-transition: all 0.11s ease-in;
+    -o-transition: all 0.11s ease-in;
+    -ms-transition: all 0.11s ease-in;
+    transition: all 0.11s ease-in;}
+
+.logout:hover  {opacity: 1;   -webkit-transition: all 0.15s ease-in-out; -moz-transition: all 0.15s ease-in-out; transition: all 0.15s ease-in-out;}
 
 
 
@@ -1664,7 +1679,7 @@ cursor: pointer;
   border:none !important;
   width:60%;
   height: 50px;
-  margin-left: 20px;
+  margin-left: 5%;
   padding: 10px;
   outline: none;
   font-size: 1.1em;
@@ -1688,6 +1703,41 @@ color: #a7a7c3; font-family: 'Book'; font-size: 0.95em;
   cursor: pointer;
 }
 
+.icon-smile {background: url(../img/smile2.svg) no-repeat center;
+width: 20px;
+height: 20px;
+opacity: 0.7;
+margin-left: 19%;
+    -webkit-transition: all 0.11s ease-in;
+    -moz-transition: all 0.11s ease-in;
+    -o-transition: all 0.11s ease-in;
+    -ms-transition: all 0.11s ease-in;
+    transition: all 0.11s ease-in;}
+
+.icon-attach {background: url(../img/attach.svg) no-repeat center;
+width: 20px;
+height: 20px;
+opacity: 0.7;
+margin-left: 2%;
+    -webkit-transition: all 0.11s ease-in;
+    -moz-transition: all 0.11s ease-in;
+    -o-transition: all 0.11s ease-in;
+    -ms-transition: all 0.11s ease-in;
+    transition: all 0.11s ease-in;}
+
+.icon-smile:hover {background: url(../img/smile2.svg) no-repeat center;
+width: 20px;
+height: 20px;
+opacity: 1;
+cursor: pointer;
+ -webkit-transition: all 0.11s ease-in-out; -moz-transition: all 0.11s ease-in-out; transition: all 0.11s ease-in-out;}
+
+.icon-attach:hover {background: url(../img/attach.svg) no-repeat center;
+width: 20px;
+height: 20px;
+opacity: 1;
+cursor: pointer;
+ -webkit-transition: all 0.11s ease-in-out; -moz-transition: all 0.11s ease-in-out; transition: all 0.11s ease-in-out;}
 
 
 
