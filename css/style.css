@@ -1490,9 +1490,26 @@ cursor: pointer;
   margin-bottom: -20px;
 }
 
-.timer2:after {
+.timer1:after {
 
     content: "1";
+    background-color: #75c475;
+    color: #fff;
+    font-size: 0.85em;
+    display: inline-block;
+    opacity: 1;
+    vertical-align: middle;
+    padding: 4px 10px;
+    border-radius: 10px;
+    line-height: 9px;
+  margin-top: -44px;
+  margin-left: -21px;
+  font-family: 'Gotham';
+}
+
+.timer2:after {
+
+    content: "6";
     background-color: #75c475;
     color: #fff;
     font-size: 0.85em;
