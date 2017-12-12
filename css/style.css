@@ -1324,7 +1324,7 @@ cursor: pointer;
 
 .discussions {
   width: 35%;
-  height: 700px;
+  height: 719px;
   overflow: hidden;
   background-color: #87a3ec;
   display: inline-block;
@@ -1366,40 +1366,52 @@ cursor: pointer;
   display:flex;
   align-items: center;
   justify-content: center;
-  color: #E0E0E0;
+}
+
+.discussions .search:hover {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F8F8F8;
 }
 
 .discussions .search .searchbar {
   height: 40px;
-  background-color: #FFF;
+  background-color: none;
   width: 70%;
   padding: 0 20px;
-  border-radius: 50px;
-  border: 1px solid #EEEEEE;
   display:flex;
   align-items: center;
   cursor: pointer;
+  outline: none;
 }
 
 .discussions .search .searchbar input {
-  margin-left: 15px;
+  margin-left: -20px;
   height:38px;
   width:100%;
   border:none;
-  font-family: 'Montserrat', sans-serif;;
+  font-family: 'Book';
+  font-size: 1em;
+  outline: none;
+  background-color: #f8f8f8;
+}
+
+.discussions .search .searchbar input:focus {
+
 }
 
 .discussions .search .searchbar *::-webkit-input-placeholder {
-    color: #E0E0E0;
+    color: #d0cfd6;
 }
 .discussions .search .searchbar input *:-moz-placeholder {
-    color: #E0E0E0;
+    color: #d0cfd6;
 }
 .discussions .search .searchbar input *::-moz-placeholder {
-    color: #E0E0E0;
+    color: #d0cfd6;
 }
 .discussions .search .searchbar input *:-ms-input-placeholder {
-    color: #E0E0E0;
+    color: #d0cfd6;
 }
 
 .discussions .message-active {
@@ -1471,7 +1483,7 @@ cursor: pointer;
 }
 
 .timer {
-  margin-left: 25%;
+  margin-left: 23%;
   font-family:'Book';
   font-size: 11px;
   color: #BBB;
@@ -1550,14 +1562,14 @@ cursor: pointer;
 
 .chat .messages-chat .text {
   margin: 0 35px;
-  background-color: #f6f6f6;
+  background-color: #e6e6ea;
   padding: 17px;
-  border-radius: 12px;
+  border-radius: 8px;
   font-family: 'Book';
   font-size: 0.9em;
 }
 
-
+.text-white {color: #fff;}
 .chat .messages-chat .text-pr {
   margin-left: 80px;
 
@@ -1589,7 +1601,7 @@ cursor: pointer;
 }
 
 .response .text {
-  background-color: #e3effd !important;
+  background-color: #4fa1f0 !important;
 }
 
 .footer-chat {
