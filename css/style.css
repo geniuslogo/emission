@@ -1740,6 +1740,10 @@ cursor: pointer;
  -webkit-transition: all 0.11s ease-in-out; -moz-transition: all 0.11s ease-in-out; transition: all 0.11s ease-in-out;}
 
 
+.footer-kraj {height: 50px; bottom: 0px;  position:fixed; background-color: #f8f8f8; width: 100%; margin-left: 240px;}
+
+
+
 
 /****************************************       k r a j    c h a t a      ****************************************/
 
