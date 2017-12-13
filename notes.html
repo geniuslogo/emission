@@ -36,11 +36,11 @@
 		
 		<ul class="nav nav-1"> 
 		<div class='logo3'></div>
-			<li><a href="dashboard.html"  class="current dash01">Dashboard</a></li>
+			<li><a href="dashboard.html"  class="dash011">Dashboard</a></li>
 			<li><a href="#"  class="dash02">Meetings</a></li>
 			<li><a href="#"  class="dash03">Events</a></li>
 			<li><a href="chat.html"  class="dash04">Chat</a></li>
-			<li><a href="notes.html"  class="dash05">Notes</a></li>
+			<li><a href="notes.html"  class="current dash051">Notes</a></li>
 			<li><a href="#"  class="dash06">Documents</a></li>
 			<li><a href="#"  class="dash07">Contacts</a></li>
 	</ul>
@@ -159,92 +159,33 @@
 
 
 
-			<div class="standard">
-
-				<div class="standardno">
-
-						<div class="widget">
-							<div class="standard-w standard0 std" >
-								<h5>Absence</h5>
-
-								<div class="cena">
-									<p>Old Absence</p> 
-									<p class="zadnje">7 days</p>
-								</div>
-
-								<div class="cena">
-									<p>New Absence</p>
-									<p class="zadnje">25 days</p>
-								</div>
-
-
-								 <div style="clear: both"></div>
-							</div>
-
-						</div>
-
-
-						<div class="widget">
-							<div class="standard-w standard1 std" >
-								<h5>Cvekla</h5>
-
-								<div class="cena">
-									<p>Today</p> 
-									<p class="zadnje">Grašak sa šniclom</p>
-								</div>
-
-								<div class="cena">
-									<p>Tomorrow</p>
-									<p class="zadnje">Punjena pljeskavica</p>
-								</div>
-								 <div style="clear: both"></div>
-
-							</div>
-
-						</div>
-
-
-						<div class="widget">
-							<div class="standard-w standard2 std" >
-								<h5>Jira</h5>
-
-								<div class="cena">
-									<p>In Progress</p> 
-									<p class="zadnje">5</p>
-								</div>
-
-								<div class="cena">
-									<p>To Do</p>
-									<p class="zadnje">23</p>
-								</div>
-								 <div style="clear: both"></div>
-
-							</div>
-
-						</div>
-
-						<div class="widget">
-							<div class="standard3 krst" >
 
 
 
-							</div>
 
-						</div>
+<textarea>This is a sticky note you can type and edit.</textarea>
 
-				</div>
-
-<!--  kraj WIDGETSa  -->
+<div id="create">+</div> 
 
 
-	
 
-        </div>
+
+
+
+
+
+
+
+
+
+
 <!-- kraj  rightside -->
 
 
 
-
+        <div class="footer-kraj">
+        </div>
+	
 
 
  <div style="clear: both"></div>
@@ -307,7 +248,14 @@ document.getElementById("defaultOpen").click();
 
  });
 </script>
-					 
+	
+
+<script type="text/javascript">
+  $("#create").click(function() {
+  $(this).before("<textarea></textarea>");
+});
+</script>
+
 
 </body>
 </html>
