@@ -1765,7 +1765,7 @@ cursor: pointer;
 #create, textarea  { 
   float:left; 
   padding:25px 25px 40px;
-  margin:0 20px 20px 0;
+      margin: 2% 0% 0% 2.6%;
   width:250px;
   height:250px; 
 }
@@ -1775,8 +1775,6 @@ cursor: pointer;
     float: left;
     padding: 16px 20px;
     border: 1px dashed #adafb6;
-    margin-left: 2%;
-    margin-top: 2%;
     height: 250px;
     position: relative;
     border-radius: 5px;
@@ -1795,8 +1793,6 @@ cursor: pointer;
     -webkit-transition: all 0.15s ease-in-out; -moz-transition: all 0.15s ease-in-out; transition: all 0.15s ease-in-out;}
 
 textarea {
-  margin-left: 2%;
-  margin-top: 2%;
   font:1.2em 'Book'; 
   line-height:1.5;
   border:0;
