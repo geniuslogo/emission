@@ -142,7 +142,18 @@
 <!--  kraj PREFERENCES DIALOGa  -->
 
 			        <li><p>Miloš</p></li>
-			        <li><img src="img/profil2.png" class="logout" alt="pref" style="width:38px;  margin-right: 12px;"></li>
+			        			        	  
+			        <li><div class="dd drop" tabindex="1">
+			        	<img src="img/profil2.png" style="width:38px;  margin-right: 12px;">
+
+						    <ul class="dropdown">
+						      <li><a href="#">App 1</a></li>
+						      <li><a href="#">App 2</a></li>
+						      <li><a href="#">App 3</a></li>
+						    </ul>
+						</div>  
+			        </li>
+
 			        <li><a href="index.html"><img src="img/logout1.svg" class="logout" alt="pref" style="width:16px;"></a></li>
 
 
@@ -255,6 +266,17 @@ document.getElementById("defaultOpen").click();
   $(this).before("<textarea></textarea>");
 });
 </script>
+
+<script type="text/javascript">
+	$(document).ready(function (){
+  var $dd = $('.dd');
+
+  $dd.on('click', function (){
+    $(this).toggleClass('active');
+  });              
+});
+</script>
+
 
 
 </body>
