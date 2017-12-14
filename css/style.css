@@ -1319,9 +1319,9 @@ cursor: pointer;
     transition: all 0.15s ease-in;}
 
 .standard3:hover {border: 1px solid #adafb6; 
-  -webkit-box-shadow: 0px 14px 63px -11px rgba(219,220,225,1);
-  -moz-box-shadow: 0px 14px 63px -11px rgba(219,220,225,1);
-  box-shadow: 0px 14px 63px -11px rgba(219,220,225,1);
+  -webkit-box-shadow: 0px 14px 63px -11px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 0px 14px 63px -11px rgba(0, 0, 0, 0.31);
+  box-shadow: 0px 14px 63px -11px rgba(0, 0, 0, 0.31);
   cursor: pointer;  
     -webkit-transition: all 0.15s ease-in-out; -moz-transition: all 0.15s ease-in-out; transition: all 0.15s ease-in-out;}
 
@@ -1789,9 +1789,9 @@ cursor: pointer;
 }
 
 #create:hover { border: 1px solid #adafb6; 
-  -webkit-box-shadow: 0px 14px 43px 2px rgba(219,220,225,1);
-  -moz-box-shadow: 0px 14px 43px 2px rgba(219,220,225,1);
-  box-shadow: 0px 14px 43px 2px rgba(219,220,225,1);
+  -webkit-box-shadow: 0px 14px 43px 2px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 0px 14px 43px 2px rgba(0, 0, 0, 0.31);
+  box-shadow: 0px 14px 43px 2px rgba(0, 0, 0, 0.31);
   cursor: pointer;  
     -webkit-transition: all 0.15s ease-in-out; -moz-transition: all 0.15s ease-in-out; transition: all 0.15s ease-in-out;}
 
@@ -1860,9 +1860,9 @@ box-shadow: 0px 14px 43px 2px rgba(249,202,98,1);
   background: white;
   border-radius: inherit;
   border: 1px solid rgba(0,0,0,0.17);
-  -webkit-box-shadow: 0px 14px 43px 2px rgba(219,220,225,1);
-  -moz-box-shadow: 0px 14px 43px 2px rgba(219,220,225,1);
-  box-shadow: 0px 14px 43px 2px rgba(219,220,225,1);
+  -webkit-box-shadow: 0px 14px 43px 2px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 0px 14px 43px 2px rgba(0, 0, 0, 0.31);
+  box-shadow: 0px 14px 43px 2px rgba(0, 0, 0, 0.31);
   font-weight: normal;
   -webkit-transition: all 02s ease-in;
   -moz-transition: all 0.2s ease-in;
