@@ -1931,9 +1931,40 @@ text-decoration: underline;
 }
 
 
-
 .profilna {margin-top: 20px; }
 .dropdown .ime-prezime {color: #515151; font-size: 1em; font-family: 'Gotham'; padding-left: 8px;}
+
+.dropdown .out-drop {
+    font-size: 1.2em;
+    font-family: 'Book';
+    padding-left: 8px;
+    width: 288px;
+    height: 44px;
+    margin-top: 68px;
+    margin-left: -13px;
+    padding-top: 15px;
+    text-decoration: none;
+    border-top: 1px solid #e6e6ea;
+    -webkit-transition: all 0.12s ease-in;
+    -moz-transition: all 0.12s ease-in;
+    -o-transition: all 0.12s ease-in;
+    -ms-transition: all 0.12s ease-in;
+    transition: all 0.12s ease-in;}
+
+.dropdown .out-drop:hover {
+    text-decoration: none !important;
+    background-color: #e6e6ea;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -ms-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    transition: all 0.12s ease-out;}
+
+    .out-dr {    text-decoration: none !important;}
+
+
+
+
 
 /****************************************       k r a j    dropdowna      ****************************************/
 
