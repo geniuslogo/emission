@@ -1819,12 +1819,12 @@ box-shadow: 0px 14px 43px 2px rgba(249,202,98,1);
 	outline:none; }
 
 
+/****************************************       k r a j    n o t e s a      ****************************************/
 
 
 
 
-
-
+/*******************************************************************     P R O F I L DROPDOWN    ************************************************************************/
 
 
 .drop {
@@ -1854,7 +1854,7 @@ box-shadow: 0px 14px 43px 2px rgba(249,202,98,1);
   position: absolute;
   top: 140%;
   right: 19px;
-  width: 240px;
+  width: 290px;
   height: 180px;
   margin-top: -26px;
   background: white;
@@ -1898,11 +1898,13 @@ box-shadow: 0px 14px 43px 2px rgba(249,202,98,1);
 }
 .drop .dropdown li a {
   display: block;
-  padding: 10px;
+  padding-left: 13px;
+  margin-top: -39px;
+  margin-right: -2px;
   text-decoration: none;
-  color: #8aa8bd;
-  border-bottom: 1px solid #e6e8ea;
-  box-shadow: inset 0 1px 0 rgba(255,255,255,1);
+  font-size: 12px;
+  font-family: 'Book';
+  color: #4fa1f0;
   -webkit-transition: all 0.12s ease-out;
   -moz-transition: all 0.12s ease-out;
   -ms-transition: all 0.12s ease-out;
@@ -1921,7 +1923,7 @@ box-shadow: 0px 14px 43px 2px rgba(249,202,98,1);
   border-radius: 0 0 7px 7px;
 }
 .drop .dropdown li:hover a {
-  background: #f3f8f8;
+text-decoration: underline;
 }
 .drop.active .dropdown {
   opacity: 1;
@@ -1930,7 +1932,10 @@ box-shadow: 0px 14px 43px 2px rgba(249,202,98,1);
 
 
 
+.profilna {margin-top: 20px; }
+.dropdown .ime-prezime {color: #515151; font-size: 1em; font-family: 'Gotham'; padding-left: 8px;}
 
+/****************************************       k r a j    dropdowna      ****************************************/
 
 
 
