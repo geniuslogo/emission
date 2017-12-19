@@ -1973,6 +1973,22 @@ text-decoration: underline;
 
 
 
+/****************************************       E V E N T      ****************************************/
+
+
+.server-error {
+    background: url(../img/506.svg)no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: absolute;}
+
+
+
+/**********************       k r a j    eventa      ********************/
+
+
 
 
 
