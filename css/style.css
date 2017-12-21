@@ -2024,6 +2024,18 @@ text-decoration: underline;
 }
 
 
+@media (max-width: 640px) {
+
+
+.dugmence-backtoearth {
+    width: 36%;
+
+  }
+
+
+}
+
+
 
 /**********************       k r a j    eventa      ********************/
 
