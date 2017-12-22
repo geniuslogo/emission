@@ -2015,7 +2015,7 @@ td {
   text-align: center;
 }
 tr:nth-child(odd) td:not(.headcol) {
-  border-bottom: 1px solid #e8e8e8;
+  border-bottom: 1px solid #E0E0E0;
 }
 
 tr:nth-child(even) td:not(.headcol) {
