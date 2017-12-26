@@ -1936,6 +1936,33 @@ text-decoration: underline;
   height: 73vh;
 }
 
+.wrap::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+.wrap::-webkit-scrollbar-track {
+
+    background-color: #f8f8f8;
+}
+ 
+.wrap::-webkit-scrollbar-thumb {
+  background-color: #e6e6ea;
+    -webkit-transition: all 02s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.wrap::-webkit-scrollbar-thumb:hover {
+  background-color: #d2d2d7;
+  -webkit-transition: all 02s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
 thead {
 }
 
@@ -2084,17 +2111,18 @@ tbody tr td {
 }
 
 .event {
-  background: #4fa1f0;
-  color: white;
-  border-radius: 2px;
-  text-align: left;
-  font-size: 0.8em;
-  line-height: 1.2;
-  z-index: 2;
-  padding: 0.5rem;
-  overflow-x: hidden;
-  transition: all 0.2s;
-  cursor: pointer;
+background: #e2f1ff;
+    color: #515151;
+    border-radius: 2px;
+    text-align: left;
+    font-size: 0.8em;
+    line-height: 1.2;
+    z-index: 2;
+    padding: 0.5rem;
+    overflow-x: hidden;
+    transition: all 0.2s;
+    cursor: pointer;
+    border-top: 2px solid #4fa1f0;
 }
 .event span {
     line-height: 1.35;
@@ -2107,7 +2135,6 @@ font-family: 'Gotham'
   -webkit-box-shadow: 0px 14px 63px -11px rgba(87,167,255,1);
   -moz-box-shadow: 0px 14px 63px -11px rgba(87,167,255,1);
   box-shadow: 0px 14px 63px -11px rgba(87,167,255,1);
-  background: #4fa1f0;
 }
 
 .event.double {
@@ -2116,7 +2143,7 @@ font-family: 'Gotham'
 }
 
 .event.double2 {
-  height: 312%;
+  height: 315%;
   font-family: 'Book';
 }
 
@@ -2126,8 +2153,9 @@ font-family: 'Gotham'
 }
 
 .event2 {
-  background: #d0e8ff;
-  color: #3b8fe1;
+background: #e3fce3;
+    color: #515151;
+    border-top: 2px solid #75c475;
 }
 
 .event3 {
@@ -2136,10 +2164,9 @@ font-family: 'Gotham'
 }
 
 .event2:hover {
-  -webkit-box-shadow: 0px 14px 63px -11px rgba(87,167,255,1);
-  -moz-box-shadow: 0px 14px 63px -11px rgba(87,167,255,1);
-  box-shadow: 0px 14px 63px -11px rgba(87,167,255,1);
-  background: #d0e8ff;
+  -webkit-box-shadow: 0px 14px 63px -11px rgba(117,196,117,1);
+  -moz-box-shadow: 0px 14px 63px -11px rgba(117,196,117,1);
+  box-shadow: 0px 14px 63px -11px rgba(117,196,117,1);
 }
 
 .event3:hover {
