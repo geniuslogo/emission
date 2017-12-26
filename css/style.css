@@ -2213,6 +2213,11 @@ button.secondary {
   cursor: pointer;
   font-weight: 500;
   margin-left: 1.6%;
+  -webkit-transition: all 0.15s ease-in;
+  -moz-transition: all 0.15s ease-in;
+  -o-transition: all 0.15s ease-in;
+  -ms-transition: all 0.15s ease-in;
+  transition: all 0.15s ease-in;
 }
 
 button.secondary2 {
@@ -2223,6 +2228,11 @@ button.secondary2 {
   border-radius: 2px 0px 0px 2px;
   color: rgba(0, 0, 0, 0.5);
   cursor: pointer;
+  -webkit-transition: all 0.15s ease-in;
+  -moz-transition: all 0.15s ease-in;
+  -o-transition: all 0.15s ease-in;
+  -ms-transition: all 0.15s ease-in;
+  transition: all 0.15s ease-in;
 }
 
 button.secondary3 {
@@ -2234,11 +2244,17 @@ button.secondary3 {
   color: rgba(0, 0, 0, 0.5);
   cursor: pointer;
   margin-left: -6px;
+  -webkit-transition: all 0.15s ease-in;
+  -moz-transition: all 0.15s ease-in;
+  -o-transition: all 0.15s ease-in;
+  -ms-transition: all 0.15s ease-in;
+  transition: all 0.15s ease-in;
 
 }
 
 button.secondary:hover {
   background: #f8f8f8;
+  
 }
 
 button.secondary2:hover {
