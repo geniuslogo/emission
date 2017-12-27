@@ -1946,7 +1946,7 @@ text-decoration: underline;
 }
  
 .wrap::-webkit-scrollbar-thumb {
-  background-color: #e6e6ea;
+  background-color: #d2d2d7;
     -webkit-transition: all 02s ease-in;
   -moz-transition: all 0.2s ease-in;
   -ms-transition: all 0.2s ease-in;
@@ -1955,7 +1955,7 @@ text-decoration: underline;
 }
 
 .wrap::-webkit-scrollbar-thumb:hover {
-  background-color: #d2d2d7;
+  background-color: #a8a8ad;
   -webkit-transition: all 02s ease-out;
   -moz-transition: all 0.2s ease-out;
   -ms-transition: all 0.2s ease-out;
